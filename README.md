@@ -3,7 +3,7 @@
 
 # **Flexify - Wallpapers & Widgets**
 
-[![GitHub stars](https://img.shields.io/github/stars/mayman007/flexify?style=social)](https://github.com/mayman007/flexify/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/MAymanKH/Flexify?style=social)](https://github.com/MAymanKH/Flexify/stargazers)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev/)
 
@@ -72,8 +72,8 @@ Join our growing community on Telegram to share your setups, get inspiration, an
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/mayman007/flexify.git
-   cd flexify
+   git clone https://github.com/MAymanKH/Flexify.git
+   cd Flexify
    ```
 
 2. **Install dependencies**
@@ -88,7 +88,7 @@ Join our growing community on Telegram to share your setups, get inspiration, an
    - Add your app's package name: `com.maymanxineffable.flexify`
 
 4. **API Configuration**
-   - Setup [Flexify API](https://github.com/mayman007/flexify-api) to fetch content as shown in [its instructions](https://github.com/mayman007/flexify-api?tab=readme-ov-file#installation)
+   - Setup [Flexify API](https://github.com/MAymanKH/Flexify-API) to fetch content as shown in [its instructions](https://github.com/MAymanKH/Flexify-API?tab=readme-ov-file#installation)
    - Add the following API endpoints to [Firebase remote configs](https://firebase.google.com/docs/remote-config/get-started?platform=flutter#set-parameter)
       - hq wallpapers endpoint as `walls_hq`
       - mid wallpapers endpoint as `walls_mid`
@@ -118,7 +118,7 @@ Join our growing community on Telegram to share your setups, get inspiration, an
 ## Built With
 
 - [Flutter](https://flutter.dev/) - UI Toolkit
-- [Flexify API](https://github.com/mayman007/flexify-api) - Backend content server
+- [Flexify API](https://github.com/MAymanKH/Flexify-API) - Backend content server
 - [Firebase](https://firebase.google.com/) - Remote config & Analytics
 - [Provider](https://pub.dev/packages/provider) - State Management
 - [Dio](https://pub.dev/packages/dio) - Networking
@@ -139,7 +139,7 @@ Help us make Flexify accessible to more people by adding your language or improv
 2. **Navigate to the translations folder**: `assets/translations/`
 3. **Create a new JSON file** for your language using the ISO 639-1 language code (e.g., `fr.json` for French, `es.json` for Spanish)
 4. **Copy the structure** from `en.json` and translate all the values to your language
-5. **Test your translation** by [setting up](https://github.com/mayman007/Flexify?tab=readme-ov-file#setup-nstructions) and running the app, then switching to your language (optional)
+5. **Test your translation** by [setting up](https://github.com/MAymanKH/Flexify?tab=readme-ov-file#setup-nstructions) and running the app, then switching to your language (optional)
 6. **Submit a pull request** with your translation
 
 #### Translation Guidelines
@@ -155,7 +155,7 @@ Help us make Flexify accessible to more people by adding your language or improv
 
 Have questions, feedback, or issues? We’d love to hear from you! Contact us at:
 
-- **Open an [Issue](https://github.com/mayman007/Flexify/issues)**
+- **Open an [Issue](https://github.com/MAymanKH/Flexify/issues)**
 - **Join [Telegram Discussion Group](https://t.me/Flexify_discussion)**
 
 ## License
