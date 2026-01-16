@@ -11,6 +11,19 @@
 
 </div>
 
+## Table of Contents
+
+- [Why Flexify?](#why-flexify)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Community](#community)
+- [Screenshots](#screenshots)
+- [Running from Source Code](#running-from-source-code)
+- [Built With](#built-with)
+- [Contributing](#contributing)
+- [Support](#support)
+- [License](#license)
+
 ## Why Flexify?
 
 Flexify is more than just a personalization app; it’s your gateway to making your phone reflect *you*. Whether you prefer minimalism, vibrant colors, or intricate designs, Flexify has you covered.
