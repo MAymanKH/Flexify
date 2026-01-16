@@ -3,6 +3,10 @@
 
 # **Flexify - Wallpapers & Widgets**
 
+[![GitHub stars](https://img.shields.io/github/stars/mayman007/flexify?style=social)](https://github.com/mayman007/flexify/stargazers)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev/)
+
 <a href='https://play.google.com/store/apps/details?id=com.maymanxineffable.flexify'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' height="80"/></a>
 
 </div>
@@ -13,13 +17,12 @@ Flexify is more than just a personalization app; it’s your gateway to making y
 
 ## Features
 
-- 🖼️ More than 600 4K wallpapers
-- 📱 100+ customized KWGT widgets and KLWP live wallpapers
-- 📋 All the content categorized to make it easy to navigate
-- 💾 Save any wallpaper you want with high quality
-- 💙 Add wallpapers or widgets you like to favorites
-- 🎨 Fluid animations and beautiful UI design following Material Design 3
-- 🌍 Multi-language support (English, Arabic)
+| Content & Aesthetics | User Experience |
+|:--- |:--- |
+| 🖼️ **600+ 4K Wallpapers** <br> A massive collection for every taste. | 💾 **High Quality Downloads** <br> Save your favorites in full resolution. |
+| 📱 **Widgets & Live Walls** <br> 100+ KWGT widgets & KLWP wallpapers. | 💙 **Favorites System** <br> Keep track of wallpapers or widgets you love. |
+| 🎨 **Dynamic Theming** <br> Material You support with 10+ color schemes. | 📋 **Smart Categorization** <br> Easy navigation through organized content. |
+| 🎭 **Material Design 3** <br> Fluid animations and beautiful UI. | 🌍 **Multi-language** <br> Supports English, Arabic, and Hindi. |
 
 ## Getting Started
 
@@ -99,6 +102,16 @@ Join our growing community on Telegram to share your setups, get inspiration, an
 - `assets/translations/` - Localization files
 - `android/` - Android-specific configuration
 
+## Built With
+
+- [Flutter](https://flutter.dev/) - UI Toolkit
+- [Flexify API](https://github.com/mayman007/flexify-api) - Backend content server
+- [Firebase](https://firebase.google.com/) - Remote config & Analytics
+- [Provider](https://pub.dev/packages/provider) - State Management
+- [Dio](https://pub.dev/packages/dio) - Networking
+- [SQFlite](https://pub.dev/packages/sqflite) - Local Database
+- [Dynamic Color](https://pub.dev/packages/dynamic_color) - Material You Theming
+
 ## Contributing
 
 We welcome contributions to make Flexify even better! Here are the ways you can help:
@@ -116,15 +129,6 @@ Help us make Flexify accessible to more people by adding your language or improv
 5. **Test your translation** by [setting up](https://github.com/mayman007/Flexify?tab=readme-ov-file#setup-nstructions) and running the app, then switching to your language (optional)
 6. **Submit a pull request** with your translation
 
-#### Improving Existing Translations
-
-1. **Fork the repository** and clone it to your local machine
-2. **Navigate to the translations folder**: `assets/translations/`
-3. **Edit the appropriate JSON file** (e.g., `ar.json` for Arabic improvements)
-4. **Make your improvements** while keeping the JSON structure intact
-5. **Test your changes** by running the app (optional)
-6. **Submit a pull request** with your improvements
-
 #### Translation Guidelines
 
 - Keep translations **concise and natural** in your language
@@ -134,26 +138,6 @@ Help us make Flexify accessible to more people by adding your language or improv
 - Use **gender-neutral language** where possible
 - Follow your language's **capitalization conventions**
 
-#### Translation File Structure
-
-Each translation file contains these main sections:
-- `navigation` - Bottom navigation labels
-- `wallpapers` - Wallpaper-related strings
-- `wallpaperDetails` - Wallpaper details screen
-- `widgetDetails` - Widget details screen
-- `widgets` - Widget-related strings
-- `depthWalls` - Depth wallpaper strings
-- `favorites` - Favorites screen
-- `settings` - Settings screen
-- `aboutUs` - About us screen
-- `common` - Common strings used throughout the app
-
-#### Need Help?
-
-If you have questions about translating or need clarification on any strings:
-- **Join our [Telegram Discussion Group](https://t.me/Flexify_discussion)**
-- **Open an [Issue](https://github.com/mayman007/Flexify/issues)** with the "translation" label
-
 ## Support
 
 Have questions, feedback, or issues? We’d love to hear from you! Contact us at:
@@ -161,6 +145,6 @@ Have questions, feedback, or issues? We’d love to hear from you! Contact us at
 - **Open an [Issue](https://github.com/mayman007/Flexify/issues)**
 - **Join [Telegram Discussion Group](https://t.me/Flexify_discussion)**
 
----
+## License
 
-**Polish your phone. Elevate your style. Download Flexify today!**
+This project is licensed under the **GNU Affero General Public License v3.0** - see the [LICENSE](LICENSE) file for details.
