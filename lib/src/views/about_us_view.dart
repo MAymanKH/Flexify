@@ -127,7 +127,7 @@ class _AboutUsViewState extends State<AboutUsView> {
                             recognizer: TapGestureRecognizer()
                               ..onTap = () async {
                                 await launchUrl(Uri.parse(
-                                    "https://github.com/mayman007/flexify"));
+                                    "https://github.com/MAymanKH/Flexify"));
                                 AnalyticsEngine.clickedOnOpenSourceLink();
                               },
                           ),
@@ -218,7 +218,7 @@ class _AboutUsViewState extends State<AboutUsView> {
                                   ),
                                 ),
                                 TextSpan(
-                                  text: "Mayman",
+                                  text: "MAymanKH",
                                   style: TextStyle(
                                     fontSize: 18,
                                     fontFamily: "Oduda",
@@ -230,7 +230,7 @@ class _AboutUsViewState extends State<AboutUsView> {
                                   recognizer: TapGestureRecognizer()
                                     ..onTap = () async {
                                       await launchUrl(Uri.parse(
-                                          "https://github.com/mayman007"));
+                                          "https://github.com/MAymanKH"));
                                     },
                                 ),
                               ],
